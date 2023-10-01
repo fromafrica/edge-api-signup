@@ -7,32 +7,8 @@ compatibility_date = "2023-09-18"
 db_host = "aws.connect.psdb.cloud"
 db_name = "fawlmain"
 
-# us-west-2
-db_user_1 = "67uo5fgj1yxk0t3ffszj"
+# us-west-2 (Oregon) write/read
+db_user_1 = "pscale_pw_v6pad4BPR6gktPv0K4AudMr37ny1YT9jVyXiBUuF3GT"
 
-# us-east-2
-db_user_2 = "bd7vfdz2x2x5mmfp1yyl"
-
-# ap-northeast-1
-db_user_3 = "rzemuiuqzyshu0ir8nbi"
-
-# ap-southeast-1
-db_user_4 = "20fxy0y291be9z186dw2"
-
-# sa-east-1 
-db_user_5 = "r0qorm626snng47h8l3f"
-
-# ap-south-1
-db_user_6 = "h762ajlar3ubm4g474a6"
-
-# eu-central-1 
-db_user_7 = "y0jyamb7hreauqdihsvw"
-
-# ap-southeast-2
-db_user_8 = "a61wgy4d7rb2tc0dxkec"
-
-# eu-west-2
-db_user_9 = "6ztxfxvw1ub3h89ev86v"
-
-# us-east-1
-db_user_10 = "deiem2d882jnfv4z3jya"
+# read replicas not defined because sign up is write only
+# any verification should happen at source of truth
