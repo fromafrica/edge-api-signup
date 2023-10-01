@@ -1,0 +1,5 @@
+POST https://signup.fromafri.ca HTTP/2.0
+content-type: application/x-www-form-urlencoded
+
+username=foo
+&password=bar
