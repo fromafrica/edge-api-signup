@@ -1,18 +1,20 @@
 {
   "name": "edge-api-signup",
-  "version": "1.0.7",
+  "version": "2.1.0",
   "private": true,
   "scripts": {
     "deploy": "wrangler deploy",
-    "start": "wrangler dev"
+    "start": "wrangler dev --port 9202"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20230922.0",
     "typescript": "^5.0.4",
-    "wrangler": "^3.0.0"
+    "wrangler": "^3.22.1"
   },
   "dependencies": {
+    "@cloudflare/workers-types": "^4.20230922.0",
+    "@fromafrica/edge-api": "^1.2.0",
     "@planetscale/database": "^1.11.0",
+    "@prisma/client": "^5.7.1",
     "jose": "^4.14.6"
   }
 }
