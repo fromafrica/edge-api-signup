@@ -1,6 +1,6 @@
 {
   "name": "edge-api-signup",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "private": true,
   "scripts": {
     "deploy": "wrangler deploy",
@@ -12,9 +12,11 @@
   },
   "dependencies": {
     "@cloudflare/workers-types": "^4.20230922.0",
-    "@fromafrica/edge-api": "^1.2.0",
+    "@fromafrica/edge-api": "^1.4.0",
     "@planetscale/database": "^1.11.0",
-    "@prisma/client": "^5.7.1",
-    "jose": "^4.14.6"
+    "hono": "^3.12.0",
+    "jose": "^4.14.6",
+    "nanoid": "^5.0.4",
+    "postmark": "^4.0.2"
   }
 }
