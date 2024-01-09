@@ -4,11 +4,7 @@ compatibility_date = "2023-09-18"
 
 
 [vars]
-db_host = "aws.connect.psdb.cloud"
-db_name = "fawlmain"
-
-# us-west-2 (Oregon) write/read
-db_user_1 = "pscale_pw_v6pad4BPR6gktPv0K4AudMr37ny1YT9jVyXiBUuF3GT"
-
-# read replicas not defined because sign up is write only
-# any verification should happen at source of truth
+ENVIRONMENT = "prod"
+DATABASE_HOST = "us-west.connect.psdb.cloud"
+DATABASE_NAME = "fawlmain"
+DATABASE_USERNAME = "zj5jyr4wqps4xfaiviy5"
